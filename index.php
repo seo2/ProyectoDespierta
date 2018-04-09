@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/despierta.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
     <link rel="icon" type="image/png" href="assets/img/favicon.png?v=1" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -29,7 +30,7 @@
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
-	
+
 	  gtag('config', 'UA-117158293-1');
 	</script>
 
@@ -85,7 +86,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
-					
+
 				</div>
 			</div>
 		</div>
@@ -114,7 +115,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1">
-					
+
 				</div>
 			</div>
 		</div>
@@ -122,7 +123,7 @@
 	<section id="galeria">
 		<div class="container">
 			<div class="row">
-				
+
 			</div>
 		</div>
 	</section>
@@ -158,13 +159,13 @@
 	    	</div>
 	    </div>
     </footer>
-    
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	
+
     <script src="assets/js/despierta.js"></script>
 </body>
 </html>
