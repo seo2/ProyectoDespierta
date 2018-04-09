@@ -1,0 +1,44 @@
+body{font-family: 'Ubuntu', sans-serif;}
+
+.navbar-default{background: #fff;}
+.navbar {
+  min-height: 100px;
+}
+.navbar-brand {
+  padding: 0 15px;
+  height: 100px;
+  line-height: 100px;
+}
+.navbar-brand img{ height: 40px; width: auto; margin-top: 20px;}
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 36.5px;
+    padding-bottom: 36.5px;
+    line-height: 27px;
+  }
+}
+
+
+#barra{margin-top: 100px; background: #204692; height: 60px;}
+
+#logo-seguros{height: 20px; margin-top: 20px; width: auto;}
+#logo-sura{height: 40px; margin-top: 10px; width: auto;}
+
+#historias{min-height: 600px; background: url(../img/bg-historias.jpg) no-repeat center bottom; background-size: cover;}
+#eventos{min-height: 400px; }
+#eventos p{color: #04337e; margin: 20px 0; font-size: 20px;}
+.btn-primary{background-color: #0d4f8f; border-color: #0d4f8f; padding: 15px 40px; font-size: 20px; border-radius: 30px;}
+
+#participa{min-height: 600px; background: url(../img/bg-participa.jpg) no-repeat center top; background-size: cover;}
+footer{min-height: 300px; background: #222a31;}
+footer .navbar-default{background: transparent; border: none; margin-top: 40px; border-bottom: 1px solid #434769;}
+
+footer .navbar-brand img{ height: 40px; width: auto; margin-top: 20px;} 
+.copyright{color: #fff;}
