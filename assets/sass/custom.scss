@@ -6,57 +6,17 @@
 @import "partials/_variables";
 @import "partials/_base";
 @import "partials/_clases";
-@import "partials/_clases";
 @import "partials/_site-classes";
 @import "sections/_header";
 @import "modules/_nav";
 @import "modules/_sliders";
-@import "sections/_home.scss";
-
-@import "sections/_404.scss";
+@import "sections/_historias";
+@import "sections/_eventos";
+@import "sections/_participa";
+@import "sections/_instagram";
 @import "sections/_footer";
+@import "sections/_404";
 
-/*cheroleiner*/
-
-#success{
-	display: none;
-}
-
-.loading{
-	width: 40px;
-	height: 40px;
-	position: relative;
-	margin: 0 auto;
-	display: none;
-}
-
-.loading.l1{
-	background: url("../img/loading-1.gif");
-	-webkit-background-size: contain;
-	background-size: contain;
-	margin-bottom: 10px;
-}
-
-.loading.l2{
-	background: url("../img/loading-2.gif");
-	-webkit-background-size: contain;
-	background-size: contain;
-	margin-bottom: 10px;
-}
-
- #form-container .form-evento label.error, #form-container2 .form-evento label.error,
- #form-festival	label.error
- {
-	color: #ffc700 !important;
-	font-size: 1.1rem !important;
-	font-weight: 600 !important;
-}
-
-section#amigos .form-amigos-container #form-amigos .form-group label.error{
-	color: tomato !important;
-	font-size: 1.3rem !important;
-	font-weight: 500 !important;
-}
 
 
 

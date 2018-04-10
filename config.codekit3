@@ -16,6 +16,13 @@
 		"oAP": "\/.gitattributes",
 		"oF": 0
 		},
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/assets\/css\/custom.css": {
 		"aP": 1,
 		"bl": 0,
@@ -35,28 +42,6 @@
 		"oAP": "\/assets\/css\/despierta-min.css",
 		"oF": 1,
 		"oS": 3
-		},
-	"\/assets\/img\/arrow-left.png": {
-		"ft": 32768,
-		"iS": 2643,
-		"oA": 0,
-		"oAP": "\/assets\/img\/arrow-left.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/arrow-right.png": {
-		"ft": 32768,
-		"iS": 2620,
-		"oA": 0,
-		"oAP": "\/assets\/img\/arrow-right.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/assets\/img\/bg-historias.jpg": {
 		"ft": 16384,
@@ -149,6 +134,28 @@
 		"iS": 4259,
 		"oA": 0,
 		"oAP": "\/assets\/img\/logo-sura.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/next.png": {
+		"ft": 32768,
+		"iS": 2643,
+		"oA": 0,
+		"oAP": "\/assets\/img\/next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/prev.png": {
+		"ft": 32768,
+		"iS": 2620,
+		"oA": 0,
+		"oAP": "\/assets\/img\/prev.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -364,6 +371,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/assets\/sass\/sections\/_eventos.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/sections\/_eventos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/sass\/sections\/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -390,7 +410,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/sections\/_home.scss": {
+	"\/assets\/sass\/sections\/_historias.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -398,12 +418,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/sections\/_home.css",
+		"oAP": "\/assets\/sass\/sections\/_historias.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/assets\/sass\/sections\/_nav.scss": {
+	"\/assets\/sass\/sections\/_instagram.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -411,16 +431,57 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/sass\/sections\/_nav.css",
+		"oAP": "\/assets\/sass\/sections\/_instagram.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/assets\/sass\/sections\/_participa.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/sass\/sections\/_participa.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/footer.php",
+		"oF": 0
+		},
+	"\/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/header.php",
+		"oF": 0
 		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.php",
+		"oF": 0
+		},
+	"\/nav.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/nav.php",
+		"oF": 0
+		},
+	"\/slider-top.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slider-top.php",
 		"oF": 0
 		}
 	},

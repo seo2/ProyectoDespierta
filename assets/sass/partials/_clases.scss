@@ -2,6 +2,10 @@
     padding-right:0;
     padding-left:0;
 }
+.center-block {
+  display: table;
+  margin: 0 auto;
+}
 .no-padding {
   padding: 0 !important;
   display: block;
@@ -39,16 +43,16 @@
 
 .position-relative{
 	position: relative !important;
-	outline: none;
 }
 .position-absolute{
 	position: absolute !important;
 }
 
 .section{
-	padding-top: 100px;
-	padding-bottom: 40px;
+	padding: 50px 0;
 }
+
+// menu colapsa en 991
 
 @media (max-width: 991px) {
     .navbar-header {
@@ -102,10 +106,7 @@
 	}
 }
 
-.center-block {
-  display: table;
-  margin: 0 auto;
-}
+
 
 
 
