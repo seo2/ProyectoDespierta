@@ -1,4 +1,44 @@
 section#participa{
 	padding-top: 280px;
 	padding-bottom: 100px;
+	#formParticipa{
+		margin-top: 40px;
+		.form-group{
+			label{
+				color: white;
+				@include font-size(16px);
+				font-weight: 500;
+			}
+			.form-control{
+				border-radius: 20px;
+				border: none;
+			}
+			&.comment{
+				label{
+					@include font-size(16px);
+					display: table;
+					text-align: center;
+					margin: 30px auto;
+				}
+			}
+		}
+		.btn-enviar{
+			background-color: $azul-claro;
+			margin-right: 15px;
+			@include font-size(18px);
+			color: white;
+			font-weight: 700;
+			text-transform: uppercase;
+			border-radius: 0;
+			border: none;
+			padding: 8px 50px;
+			display: table;
+			margin: 0 auto;
+
+			@media (min-width: 768px){
+				float: right;
+				margin-right: 20px;
+			}
+		}
+	}
 }

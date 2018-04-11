@@ -1,109 +1,87 @@
-// section.slider-home {
-
-//    #slider-home {
-//         position: relative;
-// 		margin-bottom: 50px;
-// 		@media(max-width:768px){
-// 			margin-bottom: 0px;
-// 		}
-
-//       	.item {
-//             position: relative;
-
-//         }
-
-//       .owl-nav{
-//         margin: 0;
-//         &.disabled {
-//           display: none;
-//         }
-//       }
-
-//       .owl-dots {
-
-// 		@include centerer(true, false)
-// 		bottom:10px;
-// 		margin: 0;
-// 		@media(max-width: 768px){
-// 			position: relative;
-// 			right: auto;
-// 			bottom: auto;
-// 			margin-top: 10px;
-// 		}
-//         &.disabled {
-//             display: none;
-//         }
-//         .owl-dot {
-//             span {
-//                  //border: 2px solid white;
-//                   background: #6094bd;
-//                   border-radius: 50px;
-//                   height: 10px;
-//                   width: 10px;
-//                   cursor: pointer;
-//                   opacity: 0.7;
-//                  // border: 2px solid white;
-//                   @media(max-width: 767px){
-//                   //    margin-left: 5px;
-//                  //     margin-right: 5px;
-//                   }
-
-//             }
-// 		// boton activo
-//              &.active span{
-//           			  background-color:blue;
-//           		}
+#slider-top{
+        position: relative;
+		//margin-bottom: 50px;
+		//max-width: 600px;
+		//display: table;
+		margin: 0 auto;
+		@media(max-width:768px){
+			margin-bottom: 0px;
+		}
+		@include owl-css;
+		.owl-next{
+			right: 0;
+		}
+		.owl-prev{
+			left: 0;
+		}
+}
 
 
-//           }
-//           // .owl-dot.active {
-//           //     span {
+   #slider-historias {
+        position: relative;
+		margin-bottom: 50px;
+		max-width: 600px;
+		//display: table;
+		margin: 30px auto 0 auto;
+		@media(max-width:768px){
+			margin-bottom: 0px;
+			max-width: 250px;
+		}
+		@include owl-css;
+		.item{
+			a{
+				img{
+					&.layer{
+						position: absolute;
+						opacity: 0;
+						transition: all .3s ease;
+						@media(max-width:1024px){
+							opacity: 1;
+						}
+					}
+					&.ico-play{
+						@include centerer(true, true);
+						width: 49px;
+						height: 49px;
+						z-index: 10;
+						top: calc(50% - 25px);
+						transition: all .3s ease;
+						opacity: 0;
+						@media(max-width:1024px){
+							opacity: 1;
+						}
 
-//           //     }
-//           // }
+					}
+				}
+				&:hover{
+					img{
+						&.layer{
+							position: absolute;
+							opacity: 1;
+						}
+						&.ico-play{
+							top: calc(50% - 35px);
+							opacity: 1;
+							@media(max-width:1024px){
+								top: calc(50% - 25px);
+							}
+							@media(max-width:768px){
+								top: calc(50% - 25px);
+							}
+						}
+					}
+				}
+			}
+			p{
+				text-align: center;
+				@include font-size(16px);
+				color: white;
+			}
+		}
 
-//         } // dots
-//         .owl-next, .owl-prev {
-//                width:50px;
-//                height: 63px;
-//                position: absolute;
-//                text-indent: -9999px;
-//                top: 50%;
-//                margin-top: -30px;
-//                cursor:pointer;
-//                 opacity: 0.9;
-//               // @include transition(all 0.2s ease-in-out);
-//                   &:hover {
-//                    background-color: transparent;
-//                    opacity: 0.5;
-//                  }
-//         }
+}
 
-//          .owl-next {
-//              background: url(../img/next.png) no-repeat !important;
-//              right: 15px;
-//                  @media (max-width:1024px){
-//                    right: 30px;
-//                    margin-top: -30px !important;
-//                }
-//                 @media (max-width:768px){
-//                    right: 10px;
-//                }
-//          }
-//          .owl-prev {
-//              background: url(../img/prev.png) no-repeat !important;
-//              left: 15px;
-//              @media (max-width:1024px){
-//                  margin-top: -30px !important;
-//              }
-//                @media (max-width:768px){
-//                    left: 10px;
-//                }
-//          }
 
-//       }
-
-//   } // slider home
 
 
 

@@ -26,7 +26,7 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
-
+						<?php include('slider-historias.php'); ?>
 				</div>
 			</div>
 		</div>
@@ -59,7 +59,55 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1">
+					<form id="formParticipa">
+						<div class="col-sm-12 col-md-4">
+							<div class="form-group">
+								<label for="nombre">Nombre</label>
+								<input type="text" class="form-control" id="nombre" placeholder="">
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4">
+							<div class="form-group">
+								<label for="apellido">Apellido</label>
+								<input type="text" class="form-control" id="apellido" placeholder="">
+							</div>
 
+						</div>
+						<div class="col-sm-12 col-md-4">
+							<div class="form-group">
+								<label for="rut">RUT</label>
+								<input type="text" class="form-control" id="rut" placeholder="">
+							</div>
+
+						</div>
+						<div class="col-sm-12 col-md-4">
+							<div class="form-group">
+								<label for="telefono">Teléfono</label>
+								<input type="text" class="form-control" id="telefono" placeholder="">
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4">
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input type="email" class="form-control" id="email" placeholder="">
+							</div>
+
+						</div>
+						<div class="col-sm-12 col-md-4">
+							<div class="form-group">
+								<label for="artista">Tu Artista</label>
+								<input type="text" class="form-control" id="artista" placeholder="">
+							</div>
+
+						</div>
+						<div class="col-sm-12">
+							<div class="form-group comment">
+								<label for="comment">Cuéntanos tu historia en solo 500 caracteres porque deberías ganar entradas para una experiencia Despierta.</label>
+								<textarea class="form-control" rows="5" id="comment"></textarea>
+							</div>
+						</div>
+						<button type="submit" class="btn btn-default btn-enviar">ENVIAR</button>
+					</form> <!-- form participa -->
 				</div>
 			</div>
 		</div>

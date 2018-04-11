@@ -43,6 +43,48 @@
 		"oF": 1,
 		"oS": 3
 		},
+	"\/assets\/css\/owl.carousel.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/owl.carousel.min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/assets\/css\/owl.theme.default.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/owl.theme.default.min-min.css",
+		"oF": 1,
+		"oS": 3
+		},
+	"\/assets\/img\/_next.png": {
+		"ft": 32768,
+		"iS": 2620,
+		"oA": 0,
+		"oAP": "\/assets\/img\/_next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/_prev.png": {
+		"ft": 32768,
+		"iS": 2643,
+		"oA": 0,
+		"oAP": "\/assets\/img\/_prev.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/bg-historias.jpg": {
 		"ft": 16384,
 		"iS": 255074,
@@ -68,6 +110,17 @@
 		"iS": 1397,
 		"oA": 0,
 		"oAP": "\/assets\/img\/btn-subir.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/circle.png": {
+		"ft": 32768,
+		"iS": 10601,
+		"oA": 0,
+		"oAP": "\/assets\/img\/circle.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -140,11 +193,33 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/next-xs.png": {
+		"ft": 32768,
+		"iS": 4112,
+		"oA": 0,
+		"oAP": "\/assets\/img\/next-xs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/next.png": {
 		"ft": 32768,
-		"iS": 2643,
-		"oA": 0,
+		"iS": 2620,
+		"oA": 1,
 		"oAP": "\/assets\/img\/next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/img\/prev-xs.png": {
+		"ft": 32768,
+		"iS": 4176,
+		"oA": 0,
+		"oAP": "\/assets\/img\/prev-xs.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -153,8 +228,8 @@
 		},
 	"\/assets\/img\/prev.png": {
 		"ft": 32768,
-		"iS": 2620,
-		"oA": 0,
+		"iS": 2643,
+		"oA": 1,
 		"oAP": "\/assets\/img\/prev.png",
 		"oF": 0,
 		"oIPL": 0,
@@ -213,6 +288,16 @@
 		"oAP": "\/assets\/js\/despierta-min.js",
 		"oF": 1,
 		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/owl.carousel.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/owl.carousel.min-min.js",
+		"oF": 1,
+		"sC": 1,
 		"tS": 0
 		},
 	"\/assets\/sass\/custom.scss": {
@@ -475,6 +560,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/nav.php",
+		"oF": 0
+		},
+	"\/slider-historias.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/slider-historias.php",
 		"oF": 0
 		},
 	"\/slider-top.php": {
