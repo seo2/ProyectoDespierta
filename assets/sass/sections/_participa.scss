@@ -1,17 +1,50 @@
 section#participa{
 	//padding-top: 280px;
 	padding-bottom: 100px;
+	.section-title{
+		p{
+			font-weight: 700;
+			color: white;
+			text-align: center;
+			@include font-size(30px);
+			text-transform: uppercase;
+			@media (max-width: 768px){
+				@include font-size(25px);
+
+			}
+
+		}
+	}
 	#formParticipa{
-		margin-top: 40px;
+		margin-top: 50px;
+		@media (max-width: 768px){
+			margin-top:20px;
+
+		}
 		.form-group{
 			label{
-				color: white;
+				color: #0d4f8f;
 				@include font-size(16px);
 				font-weight: 500;
+				&.comment{
+					color: white;
+				}
 			}
 			.form-control{
 				border-radius: 20px;
-				border: none;
+				border: 2px solid #0d4f8f;
+				//height: 44px;
+				background-color: transparent;
+				color: white;
+			}
+			textarea{
+				&.form-control{
+					background-color: #fff;
+					color: $azul;
+					border-color: transparent;
+					border: none;
+
+				}
 			}
 			&.comment{
 				label{

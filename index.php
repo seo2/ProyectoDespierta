@@ -5,10 +5,11 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
-					<img src="assets/img/logo-seguros.png" id="logo-seguros">
+					<img src="assets/img/logo-sura.png" id="logo-sura">
 				</div>
 				<div class="col-sm-6 text-right">
-					<img src="assets/img/logo-sura.png" id="logo-sura">
+					<img src="assets/img/logo-seguros.png" id="logo-seguros">
+
 				</div>
 			</div>
 		</div>
@@ -20,9 +21,14 @@
 	<section id="historias">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4 col-sm-offset-4">
-					<img src="assets/img/tit-conoce.png" class="img-responsive section-title">
-				</div>
+
+					<!-- <img src="assets/img/tit-conoce.png" class="img-responsive section-title"> -->
+						<div class="section-title">
+							<p class="center-block">Cuéntanos la historia que quieres despertar
+							y participa por entradas para ver a tu artista favorito.</p>
+							<p class="center-block verde">¡Ellos ya lo hicieron!</p>
+						</div>
+
 			</div>
 			<div class="row">
 				<div class="col-sm-12">
@@ -34,27 +40,23 @@
 
 
 	<section id="eventos">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1">
-					<img src="assets/img/tit-eventos.png" class="img-responsive section-title">
+			<div class="title-wrapper">
+				<img src="assets/img/tit-eventos.png" class="img-responsive center-block">
+				<div class="col-sm-12 text-center conoce">
+					<p>Conoce la cartelera disponible <a href="javascript:void(0);" class="btn btn-primary btn-revisa">Revisa aquí</a></p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<p>Conoce la cartelera completa ingresando aquí</p>
-					<a href="javascript:void(0);" class="btn btn-primary">Cartelera eventos</a>
-				</div>
-			</div>
-		</div>
 	</section>
 
 
 	<section id="participa">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-10 col-sm-offset-1">
+				<!-- <div class="col-sm-10 col-sm-offset-1">
 					<img src="assets/img/tit-participa.png" class="img-responsive section-title">
+				</div> -->
+				<div class="section-title">
+					<p class="center-block">¿Qué historia vas a despertar?</p>
 				</div>
 			</div>
 			<div class="row">
@@ -102,7 +104,7 @@
 						</div>
 						<div class="col-sm-12">
 							<div class="form-group comment">
-								<label for="comment">Cuéntanos tu historia en solo 500 caracteres porque deberías ganar entradas para una experiencia Despierta.</label>
+								<label class="comment" for="comment">Cuéntanos tu historia en solo 500 caracteres porque deberías ganar entradas para una experiencia Despierta.</label>
 								<textarea class="form-control" rows="5" id="comment"></textarea>
 							</div>
 						</div>
@@ -115,9 +117,9 @@
 
 
 	<section id="galeria">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-
+				<img class="img-responsive" src="assets/img/galeria.jpg" alt="">
 			</div>
 		</div>
 	</section>

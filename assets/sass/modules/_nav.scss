@@ -1,18 +1,30 @@
 .navbar{
 	min-height: 0;
 }
+
+.navbar-fixed-bottom .navbar-collapse,
+.navbar-fixed-top .navbar-collapse {
+	max-height: none;
+}
+
 .navbar-header{
 	a{
 		&.navbar-brand{
 			height: auto;
 			img{
 				margin-top: 30px;
+				@media(max-width: 1024px){
+					margin-top: 40px;
+					max-width: 230px;
+					height: auto;
+				}
 				@media(max-width: 991px){
 					max-width: 200px;
 					height: auto;
 					margin-top: 20px;
-
 				}
+
+
 			}
 		}
 
@@ -77,12 +89,12 @@ section#barra{
 	@media(max-width: 991px){
 		margin-top: 66px;
 	}
-	#logo-sura{
+	#logo-seguros{
 		@media(max-width: 768px){
-			margin-top: 10px;
+			margin-top: 20px;
 		}
 		@media(max-width: 767px){
-			margin-top: -45px;
+			margin-top: -60px;
 		}
 	}
 }

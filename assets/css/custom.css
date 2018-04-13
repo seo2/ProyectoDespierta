@@ -51,13 +51,17 @@ a:focus, input[type="text"] { outline: none !important; }
 
 .link:hover { border-bottom-color: black; }
 
-.section-title { margin-top: 50px; }
+.section-title { margin-top: 100px; }
 
 .navbar { min-height: 0; }
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse { max-height: none; }
 
 .navbar-header a.navbar-brand { height: auto; }
 
 .navbar-header a.navbar-brand img { margin-top: 30px; }
+
+@media (max-width: 1024px) { .navbar-header a.navbar-brand img { margin-top: 40px; max-width: 230px; height: auto; } }
 
 @media (max-width: 991px) { .navbar-header a.navbar-brand img { max-width: 200px; height: auto; margin-top: 20px; } }
 
@@ -81,9 +85,9 @@ section#barra { margin-top: 112px; }
 
 @media (max-width: 991px) { section#barra { margin-top: 66px; } }
 
-@media (max-width: 768px) { section#barra #logo-sura { margin-top: 10px; } }
+@media (max-width: 768px) { section#barra #logo-seguros { margin-top: 20px; } }
 
-@media (max-width: 767px) { section#barra #logo-sura { margin-top: -45px; } }
+@media (max-width: 767px) { section#barra #logo-seguros { margin-top: -60px; } }
 
 #slider-top { position: relative; margin: 0 auto; }
 
@@ -157,6 +161,8 @@ section#barra { margin-top: 112px; }
 
 @media (max-width: 768px) { #slider-historias .owl-prev { background: url(../img/prev-xs.png) no-repeat !important; left: -35px; width: 22px; height: 70px; margin-top: -60px; } }
 
+@media (min-width: 769px) { #slider-historias .owl-next, #slider-historias .owl-prev { margin-top: -90px; } }
+
 #slider-historias .item a img.layer { position: absolute; opacity: 0; -webkit-transition: all .3s ease; transition: all .3s ease; }
 
 @media (max-width: 1024px) { #slider-historias .item a img.layer { opacity: 1; } }
@@ -173,21 +179,53 @@ section#barra { margin-top: 112px; }
 
 @media (max-width: 768px) { #slider-historias .item a:hover img.ico-play { top: calc(50% - 25px); } }
 
-#slider-historias .item p { text-align: center; font-size: 16px; font-size: 1rem; color: white; }
+#slider-historias .item p { text-align: center; font-size: 16px; font-size: 1rem; color: white; margin-top: 20px; }
 
-section#historias { min-height: 750px; }
+section#historias { min-height: 600px; }
 
 @media (max-width: 1024px) { section#historias { min-height: 620px; } }
 
 @media (max-width: 767px) { section#historias { min-height: 680px; } }
 
+section#historias .section-title p { font-weight: 700; color: white; text-align: center; max-width: 600px; font-size: 25px; font-size: 1.5625rem; line-height: 27px; }
+
+section#historias .section-title p.verde { text-transform: uppercase; color: #ebf809; margin-top: 10px; }
+
+section#eventos { position: relative; min-height: 500px; }
+
+section#eventos .conoce { margin-top: 10px; }
+
+section#eventos .title-wrapper { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); max-width: 800px; }
+
+@media (max-width: 768px) { section#eventos .title-wrapper { width: 90%; } }
+
+section#eventos .title-wrapper p { font-size: 30px; }
+
+@media (max-width: 768px) { section#eventos .title-wrapper p { font-size: 25px; } }
+
+section#eventos .btn-revisa { margin-left: 10px; padding: 7px 40px; border: none; -webkit-transition: all .3s ease; transition: all .3s ease; font-size: 30px; }
+
+section#eventos .btn-revisa:hover { background-color: #032965; color: white; }
+
+@media (max-width: 768px) { section#eventos .btn-revisa { margin-top: 10px; font-size: 25px; } }
+
 section#participa { padding-bottom: 100px; }
 
-section#participa #formParticipa { margin-top: 40px; }
+section#participa .section-title p { font-weight: 700; color: white; text-align: center; font-size: 30px; font-size: 1.875rem; text-transform: uppercase; }
 
-section#participa #formParticipa .form-group label { color: white; font-size: 16px; font-size: 1rem; font-weight: 500; }
+@media (max-width: 768px) { section#participa .section-title p { font-size: 25px; font-size: 1.5625rem; } }
 
-section#participa #formParticipa .form-group .form-control { border-radius: 20px; border: none; }
+section#participa #formParticipa { margin-top: 50px; }
+
+@media (max-width: 768px) { section#participa #formParticipa { margin-top: 20px; } }
+
+section#participa #formParticipa .form-group label { color: #0d4f8f; font-size: 16px; font-size: 1rem; font-weight: 500; }
+
+section#participa #formParticipa .form-group label.comment { color: white; }
+
+section#participa #formParticipa .form-group .form-control { border-radius: 20px; border: 2px solid #0d4f8f; background-color: transparent; color: white; }
+
+section#participa #formParticipa .form-group textarea.form-control { background-color: #fff; color: #04337e; border-color: transparent; border: none; }
 
 section#participa #formParticipa .form-group.comment label { font-size: 16px; font-size: 1rem; display: table; text-align: center; margin: 30px auto; }
 

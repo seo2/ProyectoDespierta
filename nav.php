@@ -21,6 +21,7 @@
 	            <li><a href="#galeria"><span>Galería</span></a></li>
 	            <li><a class="icon-wrapper" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 	            <li><a class="icon-wrapper" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+	            <li><a class="icon-wrapper" href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
 	          </ul>
 	        </div><!--/.nav-collapse -->
 	      </div>

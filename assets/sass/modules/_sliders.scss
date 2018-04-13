@@ -28,6 +28,12 @@
 			max-width: 250px;
 		}
 		@include owl-css;
+		@media(min-width:769px){
+			.owl-next,.owl-prev{
+				margin-top: -90px;
+			}
+		}
+
 		.item{
 			a{
 				img{
@@ -76,6 +82,7 @@
 				text-align: center;
 				@include font-size(16px);
 				color: white;
+				margin-top: 20px;
 			}
 		}
 

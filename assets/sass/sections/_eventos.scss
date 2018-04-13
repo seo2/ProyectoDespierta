@@ -1,3 +1,39 @@
 section#eventos{
 	//padding-top: 110px;
+	position: relative;
+	min-height: 500px;
+	.conoce{
+		margin-top: 10px;
+	}
+	.title-wrapper{
+		@include centerer(true, true);
+		max-width: 800px;
+		@media(max-width:768px){
+			width: 90%;
+		}
+		p{
+			font-size: 30px;
+			@media(max-width:768px){
+				font-size: 25px;
+			}
+
+		}
+	}
+
+	.btn-revisa{
+		margin-left: 10px;
+		padding: 7px 40px;
+		border: none;
+		transition: all .3s ease;
+		font-size: 30px;
+		&:hover{
+			background-color: darken($azul, 5%);
+			color: white;
+
+		}
+		@media(max-width:768px){
+			margin-top: 10px;
+			font-size: 25px;
+		}
+	}
 }

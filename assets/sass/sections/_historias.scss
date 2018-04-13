@@ -1,10 +1,27 @@
 section#historias{
-	min-height: 750px;
+	min-height: 600px;
 	//padding-top: 50px;
 	@media(max-width: 1024px){
 		min-height: 620px;
 	}
 	@media(max-width: 767px){
 		min-height: 680px;
+	}
+
+	.section-title{
+
+		p{
+			font-weight: 700;
+			color: white;
+			text-align: center;
+			max-width: 600px;
+			@include font-size(25px);
+			line-height: 27px;
+			&.verde{
+				text-transform: uppercase;
+				color: $amarillo;
+				margin-top: 10px;
+			}
+		}
 	}
 }

@@ -10,7 +10,7 @@
 				            <span class="icon-bar"></span>
 				            <span class="icon-bar"></span>
 				          </button>
-				          <a class="navbar-brand" href="#"><img src="assets/img/logo-despierta-blanco.png" ></a>
+				          <a class="navbar-brand" href="javascript:void(0);"><img src="assets/img/logo-sura-footer.png" ></a>
 				        </div>
 				        <div id="navbar-footer" class="navbar-collapse collapse">
 				          <ul class="nav navbar-nav navbar-right">
@@ -21,6 +21,11 @@
 				            <li><a href="#galeria">Galería</a></li>
 				            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 				            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				            <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+
+
+
+
 				          </ul>
 				        </div>
 				      </div>
