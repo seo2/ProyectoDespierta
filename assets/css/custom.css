@@ -282,3 +282,15 @@ footer #nav-footer #navbar-footer ul li.active a:hover { -webkit-transition: all
 footer #nav-footer #navbar-footer ul li.active a:hover:hover, footer #nav-footer #navbar-footer ul li.active a:hover:focus { text-decoration: none; color: blue; }
 
 footer #nav-footer #navbar-footer ul li.active a span { display: block; background-color: #54c2e5; padding: 0px 10px; }
+
+.loading{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	display: none;
+	background: transparent url("../img/ajax-loader.gif");
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 5px;
+}

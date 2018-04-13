@@ -112,3 +112,43 @@ $(".video").click(function () {
 
 
 
+(function($) {
+
+	var v = $("#formParticipa").validate({
+			submitHandler: function(form) {
+				$(form).ajaxSubmit({
+					beforeSubmit: function() { 
+						$(".loading").fadeIn();
+					},
+					 success:    function(data) { 
+
+					 	$(".loading").fadeOut();
+				        console.log(data);
+				        if(data == "error"){
+				        	$("#success").html('<div class="alert alert-danger">Ha ocurrido un error. Vuelve a intentarlo más tarde.</div>');
+				        }else if(data == "ok"){
+				        	$("#success").html('<div class="alert alert-success">Gracias, los datos han sido enviados con éxito.</div>');
+				        	v.resetForm();
+				     
+				        	setTimeout(function(){ $('.alert-success').fadeOut() }, 3000);
+				        }else if(data == "existe"){
+				        	$("#success").html('<div class="alert alert-warning">Registro ya existe.</div>');
+				        }
+				    } 
+				});
+			}
+	});
+
+	jQuery.validator.addMethod("rut", function(value, element) {
+	  return this.optional(element) || $.Rut.validar(value);
+	}, "Debe ser un rut valido.");
+
+	$('.rut').Rut({validation: false});
+
+		$("#reset").click(function() {
+			v.resetForm();
+		});
+
+
+
+})(jQuery); // End of use strict

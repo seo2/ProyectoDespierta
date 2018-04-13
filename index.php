@@ -61,53 +61,56 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1">
-					<form id="formParticipa">
+					<form id="formParticipa" method="post" action="ajax/guardar.php">
 						<div class="col-sm-12 col-md-4">
 							<div class="form-group">
 								<label for="nombre">Nombre</label>
-								<input type="text" class="form-control" id="nombre" placeholder="">
+								<input type="text" class="form-control" name="nombre" required="" title="campo requerido">
 							</div>
 						</div>
 						<div class="col-sm-12 col-md-4">
 							<div class="form-group">
 								<label for="apellido">Apellido</label>
-								<input type="text" class="form-control" id="apellido" placeholder="">
+								<input type="text" class="form-control" name="apellido" required="" title="campo requerido">
 							</div>
 
 						</div>
 						<div class="col-sm-12 col-md-4">
 							<div class="form-group">
 								<label for="rut">RUT</label>
-								<input type="text" class="form-control" id="rut" placeholder="">
+								<input type="text" class="form-control rut" id="rut" name="rut" required="" data-msg-required="campo requerido">
 							</div>
 
 						</div>
 						<div class="col-sm-12 col-md-4">
 							<div class="form-group">
 								<label for="telefono">Teléfono</label>
-								<input type="text" class="form-control" id="telefono" placeholder="">
+								<input type="text" class="form-control" name="telefono" required="" title="campo requerido">
 							</div>
 						</div>
 						<div class="col-sm-12 col-md-4">
 							<div class="form-group">
 								<label for="email">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="">
+								<input type="email" class="form-control" name="email" required="" data-msg-required="campo requerido" data-msg-email="Ingresa un email válido">
 							</div>
 
 						</div>
 						<div class="col-sm-12 col-md-4">
 							<div class="form-group">
 								<label for="artista">Tu Artista</label>
-								<input type="text" class="form-control" id="artista" placeholder="">
+								<input type="text" class="form-control" name="artista" required="" title="campo requerido">
 							</div>
 
 						</div>
 						<div class="col-sm-12">
 							<div class="form-group comment">
 								<label class="comment" for="comment">Cuéntanos tu historia en solo 500 caracteres porque deberías ganar entradas para una experiencia Despierta.</label>
-								<textarea class="form-control" rows="5" id="comment"></textarea>
+								<textarea class="form-control required" rows="5" name="comment"  title="campo requerido"></textarea>
 							</div>
+							<div id="success"></div>
 						</div>
+						<div class="loading"></div>
+
 						<button type="submit" class="btn btn-default btn-enviar">ENVIAR</button>
 					</form> <!-- form participa -->
 				</div>
