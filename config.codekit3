@@ -323,6 +323,46 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/video1.jpg": {
+		"ft": 16384,
+		"iS": 88152,
+		"oA": 0,
+		"oAP": "\/assets\/img\/video1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/video2.jpg": {
+		"ft": 16384,
+		"iS": 83971,
+		"oA": 0,
+		"oAP": "\/assets\/img\/video2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/video3.jpg": {
+		"ft": 16384,
+		"iS": 98367,
+		"oA": 0,
+		"oAP": "\/assets\/img\/video3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/video4.jpg": {
+		"ft": 16384,
+		"iS": 58044,
+		"oA": 0,
+		"oAP": "\/assets\/img\/video4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/js\/despierta.js": {
 		"ft": 64,
 		"ma": 0,
