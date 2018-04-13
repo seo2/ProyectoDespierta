@@ -21,7 +21,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-4">
-					<img src="assets/img/tit-conoce.png" class="img-responsive">
+					<img src="assets/img/tit-conoce.png" class="img-responsive section-title">
 				</div>
 			</div>
 			<div class="row">
@@ -37,7 +37,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1">
-					<img src="assets/img/tit-eventos.png" class="img-responsive">
+					<img src="assets/img/tit-eventos.png" class="img-responsive section-title">
 				</div>
 			</div>
 			<div class="row">
@@ -54,7 +54,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-10 col-sm-offset-1">
-					<img src="assets/img/tit-participa.png" class="img-responsive">
+					<img src="assets/img/tit-participa.png" class="img-responsive section-title">
 				</div>
 			</div>
 			<div class="row">

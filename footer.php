@@ -1,10 +1,10 @@
   <footer>
 	    <div class="container">
 	    	<div class="row">
-				    <nav class="navbar navbar-default">
+				    <nav id="nav-footer" class="navbar navbar-default hidden-xs hidden-sm">
 				      <div class="container">
 				        <div class="navbar-header">
-				          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-footer" aria-expanded="false" aria-controls="navbar">
 				            <span class="sr-only">Toggle navigation</span>
 				            <span class="icon-bar"></span>
 				            <span class="icon-bar"></span>
@@ -12,20 +12,21 @@
 				          </button>
 				          <a class="navbar-brand" href="#"><img src="assets/img/logo-despierta-blanco.png" ></a>
 				        </div>
-				        <div id="navbar" class="navbar-collapse collapse">
+				        <div id="navbar-footer" class="navbar-collapse collapse">
 				          <ul class="nav navbar-nav navbar-right">
-				            <li><a href="../navbar/">Inicio</a></li>
-				            <li><a href="../navbar-static-top/">Historias</a></li>
-				            <li class="active"><a href="./">Participa por entradas <span class="sr-only">(current)</span></a></li>
-				            <li><a href="../navbar-static-top/">Galería</a></li>
-				            <li><a href="../navbar-static-top/"><i class="fab fa-facebook-f"></i></a></li>
-				            <li><a href="../navbar-static-top/"><i class="fab fa-instagram"></i></a></li>
+				            <li><a href="#inicio">Inicio</a></li>
+				            <li><a href="#historias">Historias</a></li>
+				            <li><a href="#eventos">Eventos</a></li>
+				            <li><a href="#participa">Participa por entradas <span class="sr-only">(current)</span></a></li>
+				            <li><a href="#galeria">Galería</a></li>
+				            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
 				          </ul>
 				        </div>
 				      </div>
 				    </nav>
 	    	</div>
-	    	<div class="row text-right">
+	    	<div class="row">
 	    		<p class="copyright">© 2018 Todos los Derechos Reservados. Seguros Sura.</p>
 	    	</div>
 	    </div>

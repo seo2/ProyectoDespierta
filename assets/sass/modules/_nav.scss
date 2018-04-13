@@ -28,14 +28,14 @@
 				color: $azul;
 				border-top: 6px solid transparent;
 				transition: all .3s ease;
-				&:hover, &:focus{
+				&:hover{
 					color: $celeste;
 					border-top: 6px solid $amarillo;
 				}
 				svg{
 
 						//border-top: 6px solid transparent;
-						&:hover, &:focus{
+						&:hover{
 
 							//border-top: 6px solid transparent;
 						}
@@ -55,7 +55,7 @@
 					display: block;
 					color: white;
 					border-top: 6px solid transparent;
-					&:hover, &:focus{
+					&:hover{
 						@include link;
 						color: white !important;
 						border-top: 6px solid transparent;
@@ -79,7 +79,10 @@ section#barra{
 	}
 	#logo-sura{
 		@media(max-width: 768px){
-			margin-top: -40px;
+			margin-top: 10px;
+		}
+		@media(max-width: 767px){
+			margin-top: -45px;
 		}
 	}
 }

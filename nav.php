@@ -1,5 +1,6 @@
 <header>
 		 <!-- Fixed navbar -->
+		<div id="inicio"></div>
 	    <nav class="navbar navbar-default navbar-fixed-top">
 	      <div class="container">
 	        <div class="navbar-header">
@@ -13,12 +14,13 @@
 	        </div>
 	        <div id="navbar" class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav navbar-right">
-	            <li class="active"><a href="../navbar/"><span>Inicio</span></a></li>
-	            <li><a href="../navbar-static-top/"><span>Historias</span></a></li>
-	            <li ><a href="./"><span>Participa por entradas</span> </a></li>
-	            <li><a href="../navbar-static-top/"><span>Galería</span></a></li>
-	            <li><a class="icon-wrapper" href="../navbar-static-top/"><i class="fab fa-facebook-f"></i></a></li>
-	            <li><a class="icon-wrapper" href="../navbar-static-top/"><i class="fab fa-instagram"></i></a></li>
+	            <li><a href="#inicio"><span>Inicio</span></a></li>
+	            <li><a href="#historias"><span>Historias</span></a></li>
+	            <li><a href="#eventos"><span>Eventos</span></a></li>
+	            <li><a href="#participa"><span>Participa por entradas</span> </a></li>
+	            <li><a href="#galeria"><span>Galería</span></a></li>
+	            <li><a class="icon-wrapper" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+	            <li><a class="icon-wrapper" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
 	          </ul>
 	        </div><!--/.nav-collapse -->
 	      </div>
