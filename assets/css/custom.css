@@ -239,7 +239,7 @@ section#participa #formParticipa .form-group label.comment { color: white; }
 
 section#participa #formParticipa .form-group .form-control { border-radius: 20px; border: 2px solid #0d4f8f; height: 44px; background-color: transparent; color: white; }
 
-section#participa #formParticipa .form-group textarea.form-control { background-color: #fff; color: #04337e; border-color: transparent; border: none; }
+section#participa #formParticipa .form-group textarea.form-control { background-color: #fff; color: #04337e; border-color: transparent; border: none; height: auto; }
 
 section#participa #formParticipa .form-group.comment label { font-size: 16px; font-size: 1rem; display: table; text-align: center; margin: 30px auto; }
 
