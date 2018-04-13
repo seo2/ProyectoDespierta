@@ -237,7 +237,7 @@ section#participa #formParticipa .form-group label { color: #0d4f8f; font-size: 
 
 section#participa #formParticipa .form-group label.comment { color: white; }
 
-section#participa #formParticipa .form-group .form-control { border-radius: 20px; border: 2px solid #0d4f8f; background-color: transparent; color: white; }
+section#participa #formParticipa .form-group .form-control { border-radius: 20px; border: 2px solid #0d4f8f; height: 44px; background-color: transparent; color: white; }
 
 section#participa #formParticipa .form-group textarea.form-control { background-color: #fff; color: #04337e; border-color: transparent; border: none; }
 
