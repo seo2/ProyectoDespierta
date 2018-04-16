@@ -20,10 +20,11 @@ function textCounter( field, countfield, maxlimit ) {
               });
 
 
-$('#slider-top').owlCarousel({
+$('.slider-desktop').owlCarousel({
     loop:true,
     margin:10,
     nav:false,
+    autoplay: true,
     responsive:{
         0:{
             items:1
@@ -37,8 +38,46 @@ $('#slider-top').owlCarousel({
     }
 })
 
+$('.slider-galeria').owlCarousel({
+    loop: $(this).find('.owl-carousel .item').size() > 1,
+    margin:10,
+    nav:true,
+    autoplay: true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+
+
+// $('#slider-principal-xs').owlCarousel({
+//     loop:false,
+//     margin:10,
+//     nav:false,
+//     responsive:{
+//         0:{
+//             items:1
+//         },
+//         600:{
+//             items:1
+//         },
+//         1000:{
+//             items:1
+//         }
+//     }
+// })
+
+
+
 $('#slider-historias').owlCarousel({
-    loop:true,
+    loop:false,
     margin:10,
     nav:true,
     dots: false,
@@ -48,10 +87,10 @@ $('#slider-historias').owlCarousel({
             items:1
         },
         991:{
-            items:3
+            items:2
         },
         1024:{
-            items:3
+            items:2
         }
     }
 })

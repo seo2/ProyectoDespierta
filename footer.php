@@ -22,17 +22,13 @@
 				            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 				            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
 				            <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
-
-
-
-
 				          </ul>
 				        </div>
 				      </div>
 				    </nav>
 	    	</div>
 	    	<div class="row">
-	    		<p class="copyright">© 2018 Todos los Derechos Reservados. Seguros Sura.</p>
+	    		<p class="copyright">© 2018 Todos los Derechos Reservados. Seguros SURA.</p>
 	    	</div>
 	    </div>
 

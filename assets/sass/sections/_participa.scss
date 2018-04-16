@@ -100,5 +100,21 @@ section#participa{
 				margin-right: 20px;
 			}
 		}
+		.bases{
+			display: table;
+			margin: 0 auto;
+			text-align: center;
+			@media (max-width:991px){
+				margin-top: 10px;
+			}
+			.checkbox{
+				margin: 0;
+			}
+			a{
+				color: white;
+				@include font-size(12px);
+				margin: 0;
+			}
+		}
 	}
 }

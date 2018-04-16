@@ -17,13 +17,19 @@
 
 <?php include('slider-top.php'); ?>
 
-
 	<section id="historias">
 		<div class="container">
 			<div class="row">
 
 					<!-- <img src="assets/img/tit-conoce.png" class="img-responsive section-title"> -->
 						<div class="section-title">
+							<div class="manifiesto-desktop visible-xs visible-sm">
+									<h1 class="center-block">Bienvenidos a Despierta</h1>
+									<p class="invitamos center-block">Te invitamos a participar de un proyecto que busca despertar tus emociones, ideas y
+									recuerdos a través del arte, la cultura y el espectáculo.</p>
+							</div>
+
+
 							<p class="center-block">Cuéntanos la historia que quieres despertar
 							y participa por entradas para ver a tu artista favorito.</p>
 							<p class="center-block verde">¡Ellos ya lo hicieron!</p>
@@ -113,18 +119,22 @@
 						<div class="loading"></div>
 
 						<button type="submit" class="btn btn-default btn-enviar">ENVIAR</button>
+						<div class="clear"></div>
+						<div class="bases">
+								<div class="checkbox">
+								    <label for="agree">
+								      <input type="checkbox" class="" id="agree" name="agree"  required="" title="Para poder enviar tu historia, debes aceptar los Términos y Condiciones"><a href="" target="_blank">Acepto los términos y condiciones.</a>
+								    </label>
+							  </div>
+							  <a href="" target="_blank">Bases legales</a>
+						</div>
+
 					</form> <!-- form participa -->
 				</div>
 			</div>
 		</div>
 	</section>
 
+	<?php include('slider-galeria.php'); ?>
 
-	<section id="galeria">
-		<div class="container-fluid">
-			<div class="row">
-				<img class="img-responsive" src="assets/img/galeria.jpg" alt="">
-			</div>
-		</div>
-	</section>
 <?php include('footer.php'); ?>
