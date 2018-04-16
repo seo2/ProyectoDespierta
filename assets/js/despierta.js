@@ -170,7 +170,7 @@ $(".video").click(function () {
 	var v = $("#formParticipa").validate({
 			rules: {
             'agree': {
-                required: true,
+                required: true
                 }
 	        },
 	        messages: {
