@@ -117,6 +117,9 @@ section#participa{
 					top: -40px;
 				    font-size: 12px;
 				    left: 0px;
+				    @media(max-width:991px){
+						top: 50px;
+				    }
 				}
 			}
 			a{
