@@ -1,3 +1,17 @@
+/*text area counter*/
+function textCounter( field, countfield, maxlimit ) {
+ if ( field.value.length > maxlimit ) {
+  field.value = field.value.substring( 0, maxlimit );
+  field.blur();
+  field.focus();
+  return false;
+ } else {
+  countfield.value = maxlimit - field.value.length;
+ }
+}
+
+
+
  			// ===== Scroll to Top ====
               $('#btn-subir').click(function() {      // When arrow is clicked
                   $('body,html').animate({
@@ -117,10 +131,10 @@ $(".video").click(function () {
 	var v = $("#formParticipa").validate({
 			submitHandler: function(form) {
 				$(form).ajaxSubmit({
-					beforeSubmit: function() { 
+					beforeSubmit: function() {
 						$(".loading").fadeIn();
 					},
-					 success:    function(data) { 
+					 success:    function(data) {
 
 					 	$(".loading").fadeOut();
 				        console.log(data);
@@ -129,12 +143,12 @@ $(".video").click(function () {
 				        }else if(data == "ok"){
 				        	$("#success").html('<div class="alert alert-success">Gracias, los datos han sido enviados con éxito.</div>');
 				        	v.resetForm();
-				     
+
 				        	setTimeout(function(){ $('.alert-success').fadeOut() }, 3000);
 				        }else if(data == "existe"){
 				        	$("#success").html('<div class="alert alert-warning">Registro ya existe.</div>');
 				        }
-				    } 
+				    }
 				});
 			}
 	});

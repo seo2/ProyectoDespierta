@@ -235,9 +235,13 @@ section#participa #formParticipa { margin-top: 50px; }
 
 @media (max-width: 768px) { section#participa #formParticipa { margin-top: 20px; } }
 
+section#participa #formParticipa .form-group.comment p { color: white; font-size: 14px; }
+
+section#participa #formParticipa .form-group.comment p input#contador { background-color: transparent; border: none; color: #ebf809; text-align: right; margin: 0; padding: 0; }
+
 section#participa #formParticipa .form-group label { color: #0d4f8f; font-size: 16px; font-size: 1rem; font-weight: 500; }
 
-section#participa #formParticipa .form-group label.comment { color: white; }
+section#participa #formParticipa .form-group label.comment { color: white; position: relative; }
 
 section#participa #formParticipa .form-group label.error { color: #ebf809; }
 

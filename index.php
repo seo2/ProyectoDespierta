@@ -105,7 +105,8 @@
 						<div class="col-sm-12">
 							<div class="form-group comment">
 								<label class="comment" for="comment">Cuéntanos tu historia en solo 500 caracteres, explicando por qué deberías ganar entradas para una experiencia Despierta.</label>
-								<textarea class="form-control required" rows="5" name="comment"  title="campo requerido"></textarea>
+								 <p class="text-right">Quedan <input id="contador" onblur="textCounter(this.form.recipients,this,500);" disabled  onfocus="this.blur();" tabindex="999" maxlength="3" size="3" value="500" name="counter"> caracteres.</p>
+								<textarea onblur="textCounter(this,this.form.counter,500);" onkeyup="textCounter(this,this.form.counter,500);" class="form-control required" rows="5" name="comment"  title="campo requerido"></textarea>
 							</div>
 							<div id="success"></div>
 						</div>
