@@ -168,6 +168,16 @@ $(".video").click(function () {
 (function($) {
 
 	var v = $("#formParticipa").validate({
+			rules: {
+            'agree': {
+                required: true,
+                }
+	        },
+	        messages: {
+	            'agree': {
+	                required: "Para poder enviar tu historia, debes aceptar los Términos y Condiciones"
+	            }
+	        },
 			submitHandler: function(form) {
 				$(form).ajaxSubmit({
 					beforeSubmit: function() {
