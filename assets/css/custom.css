@@ -321,6 +321,8 @@ section#participa #formParticipa .bases { display: table; margin: 0 auto; text-a
 
 section#participa #formParticipa .bases .checkbox { margin: 0; }
 
+section#participa #formParticipa .bases .checkbox #agree-error { position: absolute; margin: 0; padding: 0; color: #ebf809; top: -40px; font-size: 12px; left: 0px; }
+
 section#participa #formParticipa .bases a { color: white; font-size: 12px; font-size: 0.75rem; margin: 0; }
 
 footer { position: relative; }

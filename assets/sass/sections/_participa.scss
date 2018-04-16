@@ -109,6 +109,15 @@ section#participa{
 			}
 			.checkbox{
 				margin: 0;
+				#agree-error{
+					position: absolute;
+					margin: 0;
+					padding: 0;
+					color:$amarillo;
+					top: -40px;
+				    font-size: 12px;
+				    left: 0px;
+				}
 			}
 			a{
 				color: white;

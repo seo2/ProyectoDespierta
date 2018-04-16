@@ -126,7 +126,7 @@
 								      <input type="checkbox" class="" id="agree" name="agree"  required="" title="Para poder enviar tu historia, debes aceptar los Términos y Condiciones"><a href="" target="_blank">Acepto los términos y condiciones.</a>
 								    </label>
 							  </div>
-							  <a href="" target="_blank">Bases legales</a>
+							  <a href="" target="_blank">Ver Bases legales</a>
 						</div>
 
 					</form> <!-- form participa -->
