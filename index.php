@@ -85,7 +85,7 @@
 						<div class="col-sm-12 col-md-4">
 							<div class="form-group">
 								<label for="telefono">Teléfono</label>
-								<input type="text" class="form-control" name="telefono" required="" title="campo requerido">
+								<input type="number" class="form-control" name="telefono" required="" title="campo requerido">
 							</div>
 						</div>
 						<div class="col-sm-12 col-md-4">
