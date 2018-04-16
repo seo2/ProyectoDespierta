@@ -24,7 +24,7 @@
 					<!-- <img src="assets/img/tit-conoce.png" class="img-responsive section-title"> -->
 						<div class="section-title">
 							<div class="manifiesto-desktop visible-xs visible-sm">
-									<h1 class="center-block">Bienvenidos a Despierta</h1>
+									<h1 class="center-block verde">Bienvenidos a Despierta</h1>
 									<p class="invitamos center-block">Te invitamos a participar de un proyecto que busca despertar tus emociones, ideas y
 									recuerdos a través del arte, la cultura y el espectáculo.</p>
 							</div>
@@ -49,7 +49,8 @@
 			<div class="title-wrapper">
 				<img src="assets/img/tit-eventos.png" class="img-responsive center-block">
 				<div class="col-sm-12 text-center conoce">
-					<p>Conoce la cartelera disponible <a class="btn btn-primary btn-revisa" href="http://movistararena.cl/cartelera/" target="_blank">Revisa aquí</a></p>
+					<p>Conoce la cartelera disponible entre el 20 de abril y el 14 de julio.</p>
+					<a class="btn btn-primary btn-revisa" href="http://movistararena.cl/cartelera/" target="_blank">Revisa aquí</a>
 				</div>
 			</div>
 	</section>

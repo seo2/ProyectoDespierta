@@ -5,7 +5,7 @@
     		<img class="img-responsive img-circle layer" src="assets/img/circle.png" alt="">
     		<img class="img-responsive img-circle" src="assets/img/video1.jpg">
 		</a>
-		<p>Conoce la historia de Andrea y su hijo</p>
+		<p>Gepe: Cristian y Cristina</p>
     </div>
 
     <div class="item">
@@ -15,7 +15,7 @@
     		<img class="img-responsive img-circle" src="assets/img/video2.jpg">
 
 		</a>
-		<p>Conoce la historia de Alberto y su señora</p>
+		<p>Jarre: Claudia y su hijo</p>
     </div>
 
 

@@ -19,9 +19,9 @@
 				            <li><a href="#eventos">Eventos</a></li>
 				            <li><a href="#participa">Participa por entradas <span class="sr-only">(current)</span></a></li>
 				            <li><a href="#galeria">Galería</a></li>
-				            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-				            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-				            <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+				            <li><a href="https://www.facebook.com/SegurosSuraCL/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				            <li><a href="https://www.instagram.com/segurossurachile/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				            <li><a href="https://www.youtube.com/channel/UCcpKBP-1dOGTWBqhNAsNmJw" target="_blank"><i class="fab fa-youtube"></i></a></li>
 				          </ul>
 				        </div>
 				      </div>
