@@ -43,7 +43,7 @@
 			<div class="title-wrapper">
 				<img src="assets/img/tit-eventos.png" class="img-responsive center-block">
 				<div class="col-sm-12 text-center conoce">
-					<p>Conoce la cartelera disponible <a href="javascript:void(0);" class="btn btn-primary btn-revisa">Revisa aquí</a></p>
+					<p>Conoce la cartelera disponible <a class="btn btn-primary btn-revisa" href="http://movistararena.cl/cartelera/" target="_blank">Revisa aquí</a></p>
 				</div>
 			</div>
 	</section>
@@ -104,7 +104,7 @@
 						</div>
 						<div class="col-sm-12">
 							<div class="form-group comment">
-								<label class="comment" for="comment">Cuéntanos tu historia en solo 500 caracteres porque deberías ganar entradas para una experiencia Despierta.</label>
+								<label class="comment" for="comment">Cuéntanos tu historia en solo 500 caracteres, explicando por qué deberías ganar entradas para una experiencia Despierta.</label>
 								<textarea class="form-control required" rows="5" name="comment"  title="campo requerido"></textarea>
 							</div>
 							<div id="success"></div>

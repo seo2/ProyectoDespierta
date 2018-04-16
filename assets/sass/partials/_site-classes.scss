@@ -1,3 +1,15 @@
+.loading{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	display: none;
+	background: transparent url("../img/ajax-loader.gif");
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	bottom: 5px;
+}
+
 .section-title{
 	margin-top: 100px;
 }

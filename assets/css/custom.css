@@ -51,6 +51,8 @@ a:focus, input[type="text"] { outline: none !important; }
 
 .link:hover { border-bottom-color: black; }
 
+.loading { position: absolute; width: 32px; height: 32px; display: none; background: transparent url("../img/ajax-loader.gif"); margin: 0 auto; left: 0; right: 0; bottom: 5px; }
+
 .section-title { margin-top: 100px; }
 
 #video-modal .modal-content { border-radius: 0; }
@@ -237,6 +239,8 @@ section#participa #formParticipa .form-group label { color: #0d4f8f; font-size: 
 
 section#participa #formParticipa .form-group label.comment { color: white; }
 
+section#participa #formParticipa .form-group label.error { color: #ebf809; }
+
 section#participa #formParticipa .form-group .form-control { border-radius: 20px; border: 2px solid #0d4f8f; height: 44px; background-color: transparent; color: white; }
 
 section#participa #formParticipa .form-group textarea.form-control { background-color: #fff; color: #04337e; border-color: transparent; border: none; height: auto; }
@@ -282,15 +286,3 @@ footer #nav-footer #navbar-footer ul li.active a:hover { -webkit-transition: all
 footer #nav-footer #navbar-footer ul li.active a:hover:hover, footer #nav-footer #navbar-footer ul li.active a:hover:focus { text-decoration: none; color: blue; }
 
 footer #nav-footer #navbar-footer ul li.active a span { display: block; background-color: #54c2e5; padding: 0px 10px; }
-
-.loading{
-	position: absolute;
-	width: 32px;
-	height: 32px;
-	display: none;
-	background: transparent url("../img/ajax-loader.gif");
-	margin: 0 auto;
-	left: 0;
-	right: 0;
-	bottom: 5px;
-}

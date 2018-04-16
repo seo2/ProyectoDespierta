@@ -29,6 +29,9 @@ section#participa{
 				&.comment{
 					color: white;
 				}
+				&.error{
+					color: $amarillo;
+				}
 			}
 			.form-control{
 				border-radius: 20px;
