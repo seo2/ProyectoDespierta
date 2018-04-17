@@ -96,6 +96,12 @@ $('#slider-historias').owlCarousel({
 	function goToByScroll(id){
 	    // Remove "link" from the ID
 	    id = id.replace("link", "");
+	    if(history.pushState) {
+	        history.pushState(null, null, '#'+id);
+	    }
+	    else {
+	        location.hash = '#'+id;
+	    }
 	      // Scroll
 	    $('html,body').animate({
 	        scrollTop: $("#"+id).offset().top-110},
