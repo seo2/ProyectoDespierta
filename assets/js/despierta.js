@@ -136,6 +136,8 @@ $(".video").click(function () {
 
 (function($) {
 
+	$('#phone').mask('0 0000 0000');
+
 	var v = $("#formParticipa").validate({
 			rules: {
             'agree': {

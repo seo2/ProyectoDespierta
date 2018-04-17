@@ -46,6 +46,7 @@
     <script src="assets/vendor/jquery/jquery.form.min.js"></script>
     <script src="assets/vendor/jquery/jquery.Rut.min.js" type="text/javascript"></script>
 	<script src="assets/vendor/jquery/jquery.validate.min.js"></script>
+	<script src="assets/vendor/jquery/jquery.mask.min.js"></script>
     <script src="assets/js/despierta.js"></script>
 
 	<!-- Modal -->
