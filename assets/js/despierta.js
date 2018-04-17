@@ -12,12 +12,12 @@ function textCounter( field, countfield, maxlimit ) {
 
 
 
- 			// ===== Scroll to Top ====
-              $('#btn-subir').click(function() {      // When arrow is clicked
-                  $('body,html').animate({
-                      scrollTop : 0                       // Scroll to top of body
-                  }, 500);
-              });
+// ===== Scroll to Top ====
+$('#btn-subir').click(function() {      // When arrow is clicked
+  $('body,html').animate({
+      scrollTop : 0                       // Scroll to top of body
+  }, 500);
+});
 
 
 $('.slider-desktop').owlCarousel({
@@ -56,26 +56,6 @@ $('.slider-galeria').owlCarousel({
     }
 })
 
-
-// $('#slider-principal-xs').owlCarousel({
-//     loop:false,
-//     margin:10,
-//     nav:false,
-//     responsive:{
-//         0:{
-//             items:1
-//         },
-//         600:{
-//             items:1
-//         },
-//         1000:{
-//             items:1
-//         }
-//     }
-// })
-
-
-
 $('#slider-historias').owlCarousel({
     loop:false,
     margin:10,
@@ -97,55 +77,38 @@ $('#slider-historias').owlCarousel({
 
 // ===== smooth scroll to section====
 
-              $(function() {
-                $('a[href*="#"]:not([href="#"])').click(function() {
-                  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                    if (target.length) {
-                      $('html, body').animate({
-                        scrollTop: target.offset().top-110
-                      }, 1000);
-                      return false;
-                    }
-                  }
-                });
-              });
+	// $(function() {
+	// $('a[href*="#"]:not([href="#"]):not(a.no-scroll):not(a.icon-wrapper.no-scroll)').click(function() {
+	//   if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	//     var target = $(this.hash);
+	//     target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	//     if (target.length) {
+	//       $('html, body').animate({
+	//         scrollTop: target.offset().top-110
+	//       }, 1000);
+	//       return false;
+	//     }
+	//   }
+	// });
+	// });
 
-              // Highlight current page menu item as user scrolls
-var lastId,
-    pageMenu = $(".nav"),
-    pageMenuHeight = pageMenu.outerHeight() + 126,
-    // All list items
-    menuItems = pageMenu.find("a"),
-    // Anchors corresponding to menu items
-    scrollItems = menuItems.map(function(){
-      var item = $($(this).attr("href"));
-      if (item.length) { return item; }
-    });
+	//This is a functions that scrolls to #{blah}link
+	function goToByScroll(id){
+	    // Remove "link" from the ID
+	    id = id.replace("link", "");
+	      // Scroll
+	    $('html,body').animate({
+	        scrollTop: $("#"+id).offset().top-110},
+	        'slow');
+	}
 
-// Bind to scroll
-$(window).scroll(function(){
-   // Get container scroll position
-   var fromTop = $(this).scrollTop()+pageMenuHeight;
+	$("a.scroll-to").click(function(e) {
+	     // Prevent a page reload when a link is pressed
+	    e.preventDefault();
+	      // Call the scroll function
+	  	 goToByScroll(this.id);
+	});
 
-   // Get id of current scroll item
-   var cur = scrollItems.map(function(){
-     if ($(this).offset().top < fromTop)
-       return this;
-   });
-   // Get the id of the current element
-   cur = cur[cur.length-1];
-   var id = cur && cur.length ? cur[0].id : "";
-
-   if (lastId !== id) {
-       lastId = id;
-       // Set/remove active class
-       menuItems
-         .parent().removeClass("active")
-         .end().filter("[href=#"+id+"]").parent().addClass("active");
-   }
-});
 
 
 /*modal para los videos videos*/

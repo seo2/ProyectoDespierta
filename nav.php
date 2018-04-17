@@ -14,11 +14,11 @@
 	        </div>
 	        <div id="navbar" class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav navbar-right">
-	            <li><a href="#inicio"><span>Inicio</span></a></li>
-	            <li><a href="#historias"><span>Historias</span></a></li>
-	            <li><a href="#eventos"><span>Eventos</span></a></li>
-	            <li><a href="#participa"><span>Participa por entradas</span> </a></li>
-	            <li><a href="#galeria"><span>Galería</span></a></li>
+	            <li><a id="iniciolink" class="scroll-to" href="#"><span>Inicio</span></a></li>
+				<li><a id="historiaslink" class="scroll-to" href="#"><span>Historias</span></a></li>
+				<li><a id="eventoslink" class="scroll-to" href="#"><span>Eventos</span></a></li>
+				<li><a id="participalink" class="scroll-to" href="#"><span>Participa por entradas</span> </a></li>
+				<li><a id="galerialink" class="scroll-to" href="#"><span>Galería</span></a></li>
 	            <li><a class="icon-wrapper" href="https://www.facebook.com/SegurosSuraCL/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
 	            <li><a class="icon-wrapper" href="https://www.instagram.com/segurossurachile/" target="_blank"><i class="fab fa-instagram"></i></a></li>
 	            <li><a class="icon-wrapper" href="https://www.youtube.com/channel/UCcpKBP-1dOGTWBqhNAsNmJw" target="_blank"><i class="fab fa-youtube"></i></a></li>

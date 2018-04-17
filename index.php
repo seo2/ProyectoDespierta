@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <?php include('nav.php'); ?>
-
+	<div id="iniciolink"></div>
 	<section id="barra">
 		<div class="container">
 			<div class="row">
@@ -17,6 +17,7 @@
 
 <?php include('slider-top.php'); ?>
 
+	<div id="historiaslink"></div>
 	<section id="historias">
 		<div class="container">
 			<div class="row">
@@ -44,7 +45,7 @@
 		</div>
 	</section>
 
-
+	<div id="eventoslink"></div>
 	<section id="eventos">
 			<div class="title-wrapper">
 				<img src="assets/img/tit-eventos.png" class="img-responsive center-block">
@@ -55,7 +56,7 @@
 			</div>
 	</section>
 
-
+	<div id="participalink"></div>
 	<section id="participa">
 		<div class="container">
 			<div class="row">
@@ -122,11 +123,11 @@
 						<button type="submit" class="btn btn-default btn-enviar">ENVIAR</button>
 						<div class="clear"></div>
 						<div class="bases">
-								<div class="checkbox">
+							<!-- 	<div class="checkbox">
 								    <label for="agree">
 								      <input type="checkbox" class="" id="agree" name="agree"  required="" title="Para poder enviar tu historia, debes aceptar los Términos y Condiciones"><a href="" target="_blank">Acepto los términos y condiciones.</a>
 								    </label>
-							  </div>
+							  </div> -->
 							  <a href="" target="_blank">Ver Bases legales</a>
 						</div>
 
@@ -135,7 +136,7 @@
 			</div>
 		</div>
 	</section>
-
+	<div id="galerialink"></div>
 	<?php include('slider-galeria.php'); ?>
 
 <?php include('footer.php'); ?>

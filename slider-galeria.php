@@ -1,3 +1,5 @@
+
+	<div id="galerialink"></div>
 	<section id="galeria">
 		<div class="slider-galeria owl-carousel owl-theme">
 			<div class="item">
