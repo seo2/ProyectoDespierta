@@ -5,12 +5,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
-					<img src="assets/img/logo-sura.png" id="logo-sura">
+					<img src="assets/img/logo-seguros.png" id="logo-seguros">
 				</div>
 				<div class="col-sm-6 text-right">
-					<img src="assets/img/logo-seguros.png" id="logo-seguros">
-
+					<img src="assets/img/logo-sura.png" id="logo-sura">
 				</div>
+
 			</div>
 		</div>
 	</section>

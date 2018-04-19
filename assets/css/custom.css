@@ -101,9 +101,9 @@ section#barra { margin-top: 112px; }
 
 @media (max-width: 991px) { section#barra { margin-top: 66px; } }
 
-@media (max-width: 768px) { section#barra #logo-seguros { margin-top: 20px; } }
+@media (max-width: 768px) { section#barra #logo-sura { margin-top: 10px; } }
 
-@media (max-width: 767px) { section#barra #logo-seguros { margin-top: -60px; } }
+@media (max-width: 767px) { section#barra #logo-sura { margin-top: -40px; } }
 
 #slider-principal { display: block; position: relative; }
 
