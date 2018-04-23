@@ -1,6 +1,6 @@
 <div id="slider-historias" class="owl-carousel owl-theme">
     <div class="item">
-    	<a href="javascript:void(0);"  data-toggle="modal" data-target="#video-modal" class="video" data-video="https://www.youtube.com/embed/s6kTJHwft5Y">
+    	<a href="javascript:void(0);"  data-toggle="modal" data-target="#video-modal" class="video" data-video="https://player.vimeo.com/video/265616069">
     		<img class="ico-play" src="assets/img/ico-play.png" alt="">
     		<img class="img-responsive img-circle layer" src="assets/img/circle.png" alt="">
     		<img class="img-responsive img-circle" src="assets/img/video1.jpg">
@@ -9,7 +9,7 @@
     </div>
 
     <div class="item">
-    	<a href="javascript:void(0);" data-toggle="modal" data-target="#video-modal" class="video" data-video="https://www.youtube.com/embed/VnFauzc_57c">
+    	<a href="javascript:void(0);" data-toggle="modal" data-target="#video-modal" class="video" data-video="https://player.vimeo.com/video/265592039">
     		<img class="ico-play" src="assets/img/ico-play.png" alt="">
     		<img class="img-responsive img-circle layer" src="assets/img/circle.png" alt="">
     		<img class="img-responsive img-circle" src="assets/img/video2.jpg">

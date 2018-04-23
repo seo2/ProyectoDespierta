@@ -57,7 +57,7 @@
 	  <div class="modal-body">
 	  	 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 		<div class="embed-container">
-	  		<iframe src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+	  			<iframe src="" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 
 	  </div>
