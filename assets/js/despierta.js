@@ -122,7 +122,7 @@ $('#slider-historias').owlCarousel({
 $(".video").click(function () {
   var theModal = $(this).data("target"),
   videoSRC = $(this).attr("data-video"),
-  videoSRCauto = videoSRC + "?autoplay=1&color=17376e&title=0&byline=0&portrait=0";
+  videoSRCauto = videoSRC + "?modestbranding=1&rel=0&controls=1&showinfo=0&html5=1&autoplay=1";
   $(theModal + ' iframe').attr('src', videoSRCauto);
   $(theModal + ' button.close').click(function () {
     $(theModal + ' iframe').attr('src', videoSRC);
