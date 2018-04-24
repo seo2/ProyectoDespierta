@@ -8,3 +8,4 @@ config.codekit3
 assets/.DS_Store
 *.codekit3
 assets/.DS_Store
+*.codekit3

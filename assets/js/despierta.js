@@ -10,6 +10,15 @@ function textCounter( field, countfield, maxlimit ) {
  }
 }
 
+//collapse menu on click
+$('.nav a').on('click', function(){
+
+       if ($(window).width() <= 991) {
+             $('.navbar-toggle').click() ;
+       }
+
+});
+
 
 
 // ===== Scroll to Top ====
